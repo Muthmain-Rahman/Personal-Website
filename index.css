@@ -170,6 +170,10 @@ nav a:hover {
   font-family: myfont;
   src: url(hackdaddy/Hackdaddy.otf);
 }
+
+
+
+
 .hero {
   text-align: center;
   padding: 150px 20px;
@@ -269,6 +273,47 @@ word-spacing: -10px;
   text-align: center;
   font-size: 20px;
   transition: box-shadow 0.3s;
+}
+
+#skills {
+  max-width: 800px;
+  margin: 100px auto 0 auto;
+  padding: 40px;
+  background: rgba(0,0,0,1);
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  border-radius: 16px;
+  box-shadow: 0 0 5px #00ff00, 0 0 20px #00ff00 inset;
+  text-align: center;
+  font-size: 20px;
+  transition: box-shadow 0.3s;
+}
+
+#skills:hover {
+  box-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00 inset;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.skill-item {
+  padding: 10px;
+  border: 1px dashed rgba(0, 255, 0, 0.3);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+/* মোবাইল ডিভাইসের জন্য একটু এডজাস্টমেন্ট */
+@media (max-width: 480px) {
+  #skills {
+    font-size: 16px;
+    padding: 20px;
+  }
 }
 
 .Warning:hover {
@@ -854,6 +899,7 @@ html {
     background: none;
   }
 
+  
 
   .line1, .line2 {
     font-size: 35px;
@@ -905,6 +951,9 @@ html {
     padding: 12px 16px;
   }
 }
+
+
+
 
 
 

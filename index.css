@@ -170,6 +170,10 @@ nav a:hover {
   font-family: myfont;
   src: url(hackdaddy/Hackdaddy.otf);
 }
+
+
+
+
 .hero {
   text-align: center;
   padding: 150px 20px;
@@ -895,6 +899,7 @@ html {
     background: none;
   }
 
+  
 
   .line1, .line2 {
     font-size: 35px;
@@ -946,6 +951,9 @@ html {
     padding: 12px 16px;
   }
 }
+
+
+
 
 
 
